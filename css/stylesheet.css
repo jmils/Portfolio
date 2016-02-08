@@ -79,14 +79,41 @@ h4 {
     -ms-transition: all ease 0.3s;
 }
 
-.row_padding {
-  padding-top: 35px;
-
+.footer {
+  padding-top: 10px;
+  background-color: #00e6d1;
 }
+
+.footer p {
+  color: white;
+  font-size: 1em;
+}
+
+.row_padding {
+  padding: 35px;
+}
+
 .row_padding li {
   font-size: 1.1em;
 }
 .bottom_container {
   margin-left: 50px;
   margin-right: 50px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #00e6d1;
+    text-decoration: none;
+  }
+
+.navbar-right li a:hover {
+  background-color: white;
+}
+
+ h4:hover {
+  color: #00e6d1;
 }
