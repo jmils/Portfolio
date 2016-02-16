@@ -2,9 +2,5 @@
 require 'sinatra'
 
 get '/' do
-  "Jallo!"
-end
-
-get '/sinatra' do
-  "<h1>Sinatra Rocks!</h1>"
+  redirect '/portfolio.html'
 end
