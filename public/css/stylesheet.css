@@ -16,6 +16,7 @@ h4 {
   top: 180px;
   right:25px;
   width: 40%;
+  display: inline-block;
 }
 
 .full-width {
